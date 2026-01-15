@@ -45,22 +45,3 @@ export OPENAI_API_KEY="YOUR_KEY"
 export PULSE_LLM_MODEL="gpt-5-mini"
 ```
 If OPENAI_API_KEY is not set, Pulse runs fully without AI.
-
-
-### License
-MIT
-```bash
-
----
-
-# BACKEND — `services/api`
-
-## `flowbit-pulse/services/api/requirements.txt`
-```txt
-fastapi
-uvicorn[standard]
-sqlalchemy
-pydantic
-python-dateutil
-openai
-```
