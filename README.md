@@ -25,3 +25,24 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn pulse_api.main:app --reload --port 8000
 ```
+
+### 2) Run
+```bash
+cd ../../apps/web
+npm install
+cp .env.local.example .env.local
+npm run dev
+```
+# Open:
+- http://localhost:3000/today
+
+
+### Enable AI (optional)
+
+Set env vars for the API:
+```bash
+export OPENAI_API_KEY="YOUR_KEY"
+export PULSE_LLM_MODEL="gpt-5-mini"
+```
+
+# If OPENAI_API_KEY is not set, Pulse runs fully without AI.
