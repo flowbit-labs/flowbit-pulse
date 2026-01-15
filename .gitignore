@@ -1,1 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+.env
+.venv/
 
+# Node
+node_modules/
+.next/
+dist/
+.env.local
